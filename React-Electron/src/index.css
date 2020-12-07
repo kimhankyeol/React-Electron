@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Badge span 이 100% 안되어있어서 인카세일즈 뱅크에서 작게나옴 */
+.ant-badge {
+  width: 100%;
+  height: 100%;
+}
+div.lineEllips{
+  width: 100%;
+  padding:0 5;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/*Spin vertical align */
+span.ant-spin-dot{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+div.ant-spin-text{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
